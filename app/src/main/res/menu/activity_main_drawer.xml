@@ -7,15 +7,15 @@
         <item
             android:id="@+id/first_fragment"
             android:icon="@drawable/ic_av_timer_black_24dp"
-            android:title="Таймер на 10 секунд" />
+            android:title="Таймер на 3 секунды" />
         <item
             android:id="@+id/second_fragment"
             android:icon="@drawable/ic_av_timer_black_24dp"
-            android:title="Таймер на 1 минуту" />
+            android:title="Таймер на 10 секунд" />
         <item
             android:id="@+id/three_fragment"
             android:icon="@drawable/ic_av_timer_black_24dp"
-            android:title="Таймер на 24 часа" />
+            android:title="Таймер на 30 секунд" />
         <item
             android:id="@+id/fo_fragment"
             android:icon="@drawable/ic_menu_manage"
