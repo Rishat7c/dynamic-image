@@ -5,4 +5,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">10 sec fragment</string>
+    <string name="message_first_fragment">first fragment</string>
+    <string name="message_second_fragment">message second fragment</string>
+    <string name="message_three_fragment">message three fragment</string>
+    <string name="message_settings_fragment">message settings fragment</string>
 </resources>

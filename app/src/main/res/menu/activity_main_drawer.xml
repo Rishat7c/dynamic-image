@@ -5,19 +5,19 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/first_fragment"
             android:icon="@drawable/ic_av_timer_black_24dp"
             android:title="Таймер на 10 секунд" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/second_fragment"
             android:icon="@drawable/ic_av_timer_black_24dp"
             android:title="Таймер на 1 минуту" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/three_fragment"
             android:icon="@drawable/ic_av_timer_black_24dp"
             android:title="Таймер на 24 часа" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/fo_fragment"
             android:icon="@drawable/ic_menu_manage"
             android:title="Настройки" />
     </group>
