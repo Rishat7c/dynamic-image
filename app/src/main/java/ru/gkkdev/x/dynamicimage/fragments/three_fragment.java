@@ -77,7 +77,7 @@ public class three_fragment extends Fragment {
         View v = inflater.inflate(R.layout.first_fragment, container, false);
 
         timer = new Timer();
-        timer.schedule(new UpdateTimeTask(), 0, 30000); //тикаем 10 секунд без задержки
+        timer.schedule(new UpdateTimeTask(), 0, 30000); //тикаем 30 секунд без задержки
 
         imageView = (ImageView) v.findViewById(R.id.imageView);
 
@@ -93,14 +93,10 @@ public class three_fragment extends Fragment {
                     // Stuff that updates the UI
                     iImageCount++;
                     if(iImageCount == 1) {
-                        imageView.setImageResource(R.drawable.bmw_2);
+                        imageView.setImageResource(R.drawable.afrika_2);
                     } else if(iImageCount == 2) {
-                        imageView.setImageResource(R.drawable.bmw_3);
-                    }else if(iImageCount == 3) {
-                        imageView.setImageResource(R.drawable.bmw_3);
-                    }else if(iImageCount == 4) {
-                        imageView.setImageResource(R.drawable.bmw_4);
-                    } else if(iImageCount >= 5) {
+                        imageView.setImageResource(R.drawable.afrika_3);
+                    } else if(iImageCount >= 3) {
                         timer.cancel();
                     }
                 }

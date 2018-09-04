@@ -10,4 +10,10 @@
         android:layout_height="match_parent"
         android:text="@string/message_three_fragment" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/afrika_1" />
+
 </FrameLayout>

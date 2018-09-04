@@ -101,13 +101,13 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.first_fragment) {
             // Handle the camera action
-            setTitle("10 sec fragment");
+            setTitle("3 sec fragment");
             fragmentTransaction.replace(R.id.container, f_fragment);
         } else if (id == R.id.second_fragment) {
-            setTitle("60 sec fragment");
+            setTitle("10 sec fragment");
             fragmentTransaction.replace(R.id.container, s_fragment);
         } else if (id == R.id.three_fragment) {
-            setTitle("24 hour fragment");
+            setTitle("30 sec fragment");
             fragmentTransaction.replace(R.id.container, t_fragment);
         } else if (id == R.id.fo_fragment) {
             setTitle("Settings");
